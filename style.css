@@ -1,0 +1,62 @@
+
+
+
+ .carousel{
+    background-color: #080d15; 
+}
+.carousel-item {
+    height: 300px;
+    /* margin : 0px 20px 0px 20px; */
+    /* max-height: 300px; */
+  }
+  
+  .carousel-item > h3{
+    text-align: center;
+    color: cornsilk;
+    margin: 100px 0px;
+    font-size: 4rem;
+
+    /* margin : 0px 20px 0px 20px; */
+    /* max-height: 300px; */
+  }
+
+
+.carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+    opacity: .4;
+    filter: blur(2px);
+}
+.carousel-caption > h3 {
+    color: white;
+    opacity: 1;
+}
+
+.highlight {
+    color: chocolate;
+}
+
+.jumbotron {
+    margin-bottom: 0%;
+    border-bottom: 1px solid grey;
+}
+
+.jumbotron.alternate {
+    text-align: end;
+    /* color: chocolate; */
+}
+
+.footer {
+    width: 100%;
+    position: absolute;
+    height: 60px;
+    background: #080d15;
+}
+
+.github {
+    text-align: center;
+    color: cornsilk;
+    font-size: 2rem;
+}
